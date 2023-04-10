@@ -3,6 +3,7 @@
 
 *{
   font-family: "Josefin Sans", 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  line-height: 110%;
 }
 
 a{
@@ -28,6 +29,17 @@ a:hover{
   vertical-align: middle;
 }
 
+.mx-auto{
+  margin: auto;
+}
+
+.ingredient-list{
+  text-align: center;
+  list-style-position: inside;
+}
+.w-50{
+  width: 50%;
+}
 .w-80{
   width: 80%;
   margin: auto;
@@ -37,6 +49,10 @@ a:hover{
   height: auto;
 }
 
+.recipe-img{
+  width: 40%;
+}
+
 .index-recipe-img:hover{
   width: 85%;
   height: auto;
@@ -44,4 +60,8 @@ a:hover{
 
 .center{
   text-align: center;
+}
+
+.pr-30{
+  padding-right: 30px;
 }
