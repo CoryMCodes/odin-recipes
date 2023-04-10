@@ -16,10 +16,22 @@ a:hover{
 .heading{
   font-weight: 700;
 }
-.index-recipe-list{
+.flex{
   display:flex;
 }
 
+.flex-col{
+  flex-direction: column;
+}
+
+.vert-align{
+  vertical-align: middle;
+}
+
+.w-80{
+  width: 80%;
+  margin: auto;
+}
 .index-recipe-img{
   width: 80%;
   height: auto;
