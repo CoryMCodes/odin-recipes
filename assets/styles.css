@@ -1,0 +1,35 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+*{
+  font-family: "Josefin Sans", 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+.heading{
+  font-weight: 700;
+}
+.index-recipe-list{
+  display:flex;
+}
+
+.index-recipe-img{
+  width: 80%;
+  height: auto;
+}
+
+.index-recipe-img:hover{
+  width: 85%;
+  height: auto;
+}
+
+.center{
+  text-align: center;
+}
