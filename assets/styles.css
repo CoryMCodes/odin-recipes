@@ -27,24 +27,42 @@ a:hover{
   flex-direction: column;
 }
 
+
+.center{
+  text-align: center;
+}
+
 .mx-auto{
   margin: auto;
+}
+.mb-0{
+  margin-bottom: 0;
+}
+
+.pr-30{
+  padding-right: 30px;
 }
 
 .ingredient-list{
   text-align: center;
   list-style-position: inside;
 }
+
+.w-10{
+  width: 10%;
+}
+
 .w-50{
   width: 50%;
 }
 .w-80{
   width: 80%;
-  margin: auto;
 }
+
 .index-recipe-img{
   width: 80%;
   height: auto;
+  border-radius: 75%;
 }
 
 .recipe-img{
@@ -56,11 +74,4 @@ a:hover{
   height: auto;
 }
 
-.center{
-  text-align: center;
-}
-
-.pr-30{
-  padding-right: 30px;
-}
 
